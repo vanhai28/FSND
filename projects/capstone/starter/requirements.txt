@@ -1,0 +1,17 @@
+babel
+python-dateutil
+flask-moment
+flask-wtf
+flask_sqlalchemy
+python-dotenv
+Flask-Cors
+pycryptodome
+python-jose-cryptodome
+wrapt
+itsdangerous
+MarkupSafe
+psycopg2-binary
+pytz
+six
+SQLAlchemy
+Werkzeug
