@@ -246,8 +246,7 @@ def create_app(test_config=None):
     except:
       return jsonify({"success": False,'message': 'Error {0}'.format(sys.exc_info())})
     return jsonify({
-        'success':True,
-        "actors": actor.value()
+        'success':True
     })
 
   @app.route('/api/movies/add/actor', methods=['PATCH'])
@@ -312,3 +311,5 @@ def create_app(test_config=None):
       return response
   
   return app
+
+app = create_app()
